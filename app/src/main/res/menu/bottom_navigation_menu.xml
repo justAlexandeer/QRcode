@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/scanFragment"
+        android:title="@string/bottom_navigation_scan" />
+    <item
+        android:id="@id/generateFragment"
+        android:title="@string/bottom_navigation_generate" />
+    <item
+        android:id="@id/historyFragment"
+        android:title="@string/bottom_navigation_history" />
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/scanFragment">
+
+    <fragment
+        android:id="@+id/generateFragment"
+        android:name="com.github.justalexandeer.qrcode.ui.generate.GenerateFragment"
+        android:label="GenerateFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.github.justalexandeer.qrcode.ui.history.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.github.justalexandeer.qrcode.ui.scan.ScanFragment"
+        android:label="ScanFragment" />
+</navigation>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">QRcode</string>
+    <string name="bottom_navigation_scan">Scan</string>
+    <string name="bottom_navigation_generate">Generate</string>
+    <string name="bottom_navigation_history">History</string>
 </resources>
