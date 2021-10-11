@@ -3,4 +3,12 @@
     <string name="bottom_navigation_scan">Scan</string>
     <string name="bottom_navigation_generate">Generate</string>
     <string name="bottom_navigation_history">History</string>
+    <string name="WEB">Web-site</string>
+    <string name="TEL">Telephone</string>
+    <string name="TEXT">Text</string>
+    <string name="WIFI">Wi-Fi</string>
+    <string name="EVENT">Event</string>
+    <string name="CONTACT">Contact</string>
+    <string name="MAIL">Mail</string>
+    <string name="SMS">SMS</string>
 </resources>

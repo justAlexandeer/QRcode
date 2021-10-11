@@ -8,7 +8,9 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.github.justalexandeer.qrcode.R
 import com.github.justalexandeer.qrcode.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding

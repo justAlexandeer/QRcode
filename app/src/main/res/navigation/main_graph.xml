@@ -7,7 +7,11 @@
     <fragment
         android:id="@+id/generateFragment"
         android:name="com.github.justalexandeer.qrcode.ui.generate.GenerateFragment"
-        android:label="GenerateFragment" />
+        android:label="GenerateFragment" >
+        <action
+            android:id="@+id/action_generateFragment_to_fillContentFragment"
+            app:destination="@id/fillContentFragment" />
+    </fragment>
     <fragment
         android:id="@+id/historyFragment"
         android:name="com.github.justalexandeer.qrcode.ui.history.HistoryFragment"
@@ -16,4 +20,12 @@
         android:id="@+id/scanFragment"
         android:name="com.github.justalexandeer.qrcode.ui.scan.ScanFragment"
         android:label="ScanFragment" />
+    <fragment
+        android:id="@+id/fillContentFragment"
+        android:name="com.github.justalexandeer.qrcode.ui.generate.content.FillContentFragment"
+        android:label="FillContentFragment" >
+        <argument
+            android:name="typeQRCode"
+            app:argType="com.github.justalexandeer.qrcode.data.model.TypeQRCode" />
+    </fragment>
 </navigation>
