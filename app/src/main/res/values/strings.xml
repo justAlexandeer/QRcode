@@ -11,4 +11,7 @@
     <string name="CONTACT">Contact</string>
     <string name="MAIL">Mail</string>
     <string name="SMS">SMS</string>
+    <string name="edit_text_hint_web_site">Web site</string>
+    <string name="edit_text_hint_text">Text</string>
+    <string name="button_generate_QR_code">generate</string>
 </resources>
