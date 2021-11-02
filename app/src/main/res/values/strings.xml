@@ -14,4 +14,6 @@
     <string name="edit_text_hint_web_site">Web site</string>
     <string name="edit_text_hint_text">Text</string>
     <string name="button_generate_QR_code">generate</string>
+    <string name="qr_code_menu_download">Download</string>
+    <string name="qr_code_download_success">Download success</string>
 </resources>

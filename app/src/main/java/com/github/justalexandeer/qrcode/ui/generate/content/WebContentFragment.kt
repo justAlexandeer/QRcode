@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import com.github.justalexandeer.qrcode.data.model.TypeQRCode
 import com.github.justalexandeer.qrcode.databinding.FragmentWebContentBinding
 import com.google.zxing.qrcode.QRCodeWriter
 import kotlinx.coroutines.flow.collect
@@ -43,7 +44,11 @@ class WebContentFragment : Fragment() {
             viewModel.bitmapState
                 .collect {
                     it?.let {
-                        val value = WebContentFragmentDirections.actionGlobalQRCodeFragment(it)
+                        val value =
+                            WebContentFragmentDirections.actionWebContentFragmentToQRCodeFragment(
+                                it,
+                                TypeQRCode.WEB
+                            )
                         findNavController().navigate(value)
                         viewModel.bitmapState.value = null
                     }
