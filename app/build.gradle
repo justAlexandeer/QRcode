@@ -69,4 +69,15 @@ dependencies {
     // zxing
     def zxing_version = "3.4.1"
     implementation "com.google.zxing:core:$zxing_version"
+
+    // room
+    def room_version = "2.3.0"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation("androidx.room:room-ktx:$room_version")
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 }

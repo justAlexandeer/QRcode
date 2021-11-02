@@ -9,8 +9,7 @@ import com.github.justalexandeer.qrcode.ui.base.ChooserQRCodeListener
 class ChooserQRCodeAdapter(
     private val listChooserQRCode: List<ChooserQRCode>,
     private val chooserQRCodeListener: ChooserQRCodeListener
-) :
-    RecyclerView.Adapter<ChooserQRCodeViewHolder>() {
+) : RecyclerView.Adapter<ChooserQRCodeViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChooserQRCodeViewHolder {
         return ChooserQRCodeViewHolder.create(parent, chooserQRCodeListener)
