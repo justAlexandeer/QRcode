@@ -16,4 +16,6 @@
     <string name="button_generate_QR_code">generate</string>
     <string name="qr_code_menu_download">Download</string>
     <string name="qr_code_download_success">Download success</string>
+    <string name="scan_fragment_permission_denied">To read the QR Code from the camera, app need this permission</string>
+    <string name="scan_fragment_button_gallery">Get from gallery</string>
 </resources>
